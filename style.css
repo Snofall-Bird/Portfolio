@@ -4,12 +4,26 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 @media (max-width: 576px) {
-  body {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 20px 20px;
+  }
+
+  .about-paragraphs {
+    padding: 0;
     text-align: center;
-    width: auto 100%;
-    margin-bottom: 30px;
-    display: block;
-    justify-content: center;
+  }
+  .about-me {
+    padding: 20px 20px;
+    text-align: center;
   }
 }
 body {
@@ -90,7 +104,7 @@ p {
 
 a.btn-branding {
   display: block;
-  justify-content: centers;
+  justify-content: center;
   text-align: center;
   background: var(--primary-color);
   border-radius: 4px;
@@ -115,4 +129,26 @@ a.btn-branding {
   text-decoration: underline;
   color: var(--primary-color);
   background: var(--secondary-color);
+}
+.about-me {
+  text-align: center;
+  padding: 70px 10px;
+}
+.about-me h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-me h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+}
+
+.about-me-content {
+  margin: 30px;
+}
+.headshot img {
+  max-height: 546px;
+  width: auto;
+  padding: 20px 0px;
+  margin: 20px 0px;
 }
