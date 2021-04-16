@@ -1,0 +1,131 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --default-font: "Archivo Narrow", sans-serif;
+  --heading-font: "Lobster Two", cursive, sans-serif;
+}
+
+body {
+  font-family: var(--default-font);
+  width: auto;
+  display: block;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  text-align: center;
+  font-family: var(--heading-font);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 70px 10px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
+.hero h2 {
+  font-family: var(--heading-font);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
+}
+.btn-primaryLink {
+  background: var(--primary-color);
+  text-align: center;
+  border-radius: 4px;
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-SecondaryLink {
+  display: inherit;
+  color: var(--branding-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-SecondaryLink:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+  background: var(--secondary-color);
+}
+.project-desciption {
+  padding: 120px 60px;
+}
+.about-me {
+  text-align: center;
+  padding: 70px 10px;
+}
+.about-me h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-me h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+}
+
+.about-me-content {
+  margin: 30px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 20px 20px;
+  }
+
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+  .about-me {
+    padding: 20px 20px;
+    text-align: center;
+  }
+}
