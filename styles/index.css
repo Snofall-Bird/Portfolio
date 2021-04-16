@@ -89,20 +89,20 @@ p {
 .project-desciption {
   padding: 120px 60px;
 }
-.about-me {
+.top-info {
   text-align: center;
   padding: 70px 10px;
 }
-.about-me h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-me h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--default-font);
 }
 
-.about-me-content {
+.content {
   margin: 30px;
 }
 
@@ -124,7 +124,7 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-me {
+  .content {
     padding: 20px 20px;
     text-align: center;
   }
