@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #3dbffc;
+  --secondary-color: #e1d6ff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --default-font: "Archivo Narrow", sans-serif;
   --heading-font: "Lobster Two", cursive, sans-serif;
@@ -27,7 +27,7 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 86px;
   line-height: 1.5;
 }
 
@@ -42,18 +42,23 @@ p {
   text-align: center;
   border-radius: 4px;
 }
-
+.navbar-brand {
+  margin-right: 200px;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: var(--primary-color);
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 70px 10px;
+  padding: 50px 10px;
 }
 
 .hero p {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: black;
 }
 
 .hero h2 {
@@ -91,7 +96,7 @@ p {
 }
 .top-info {
   text-align: center;
-  padding: 70px 10px;
+  padding: 20px 10px;
 }
 .content h1 {
   font-size: 64px;
