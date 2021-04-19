@@ -45,6 +45,9 @@ p {
 .navbar-brand {
   margin-right: 200px;
 }
+.navbar-nav {
+  padding-left: 80px;
+}
 .navbar-light .navbar-nav .nav-link.active {
   color: var(--primary-color);
 }
@@ -150,6 +153,10 @@ footer .social-links a:hover {
   color: var(--secondary-color);
   background: var(--primary-color);
 }
+footer .open-source {
+  font-size: 12px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 44px;
