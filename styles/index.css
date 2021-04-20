@@ -70,6 +70,14 @@ p {
   line-height: 1.5;
   font-size: 24px;
 }
+.logo img {
+  height: 100px;
+  width: auto;
+  margin: auto;
+}
+.logo p {
+  text-align: left;
+}
 .btn-primaryLink {
   background: var(--primary-color);
   text-align: center;
@@ -166,7 +174,9 @@ footer .open-source {
   h2 {
     font-size: 44px;
   }
-
+  .navbar {
+    margin: 0, 10px;
+  }
   .hero {
     padding: 20px 20px;
   }
@@ -176,8 +186,12 @@ footer .open-source {
     text-align: center;
   }
   .content {
-    padding: 20px 20px;
+    padding: 5px 10px;
     text-align: center;
+  }
+  .content h1 {
+    font-size: 36px;
+    line-height: 1.25;
   }
   .icons {
     display: none;

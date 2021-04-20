@@ -32,16 +32,23 @@
   </head>
   <body>
     <nav
-      class="container navbar sticky-top navbar-expand-md navbar-light mb-3 rounded"
+      class="container navbar sticky-top navbar-expand-md navbar-light mb-1 rounded"
       style="background-color: #e1d6ff"
     >
       <div class="container-fluid">
         <a
-          class="navbar-brand"
+          class="navbar-brand d-none d-sm-block"
           href="https://www.linkedin.com/in/sno-wirth"
           target="_blank"
           title="Sno Wirth LinkedIn"
           >💻 Sno Wirth</a
+        ><a
+          class="navbar-brand d-block d-sm-none"
+          href="https://www.linkedin.com/in/sno-wirth"
+          target="_blank"
+          title="Sno Wirth LinkedIn"
+        >
+          Sno Wirth</a
         >
         <button
           class="navbar-toggler"
@@ -52,7 +59,7 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="toggle-key">🍔</span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
@@ -74,7 +81,153 @@
     </nav>
     <div class="top-info container">
       <div class="content">
-        <h1 class="mb-5">Take a look at what I've been working on!</h1>
+        <h1 class="mb-3">Take a look at what I've been working on!</h1>
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide w-50 mx-auto mb-3 d-none d-md-block"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner logo">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="/images/html-logo.png"
+                class="d-block w-20"
+                alt="HTML logo"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>HTML</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                src="/images/css-logo.png"
+                class="d-block w-20"
+                alt="CSS logo"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>CSS</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/javascript-logo.png"
+                class="d-block w-20"
+                alt="Javascript logo"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>JavaScript</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/react-logo.png"
+                class="d-block w-20"
+                alt="Java React logo"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>React</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/editor-logo.png"
+                class="d-block w-20"
+                alt="VS Code logo"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>VS Code</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="/images/github-logo.png"
+                class="d-block w-20"
+                alt="Github Repository"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>Github</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/netlify-hosting-logo.png"
+                class="d-block w-20"
+                alt="Netlify logo"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>Netlify</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/api-logo.png"
+                class="d-block w-20"
+                alt="API logo"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>API</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/bootstrap-logo.png"
+                class="d-block w-20"
+                alt="bootstrap logo"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>Bootstrap</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/flexbox-logo.png"
+                class="d-block w-20"
+                alt="flexbox logo"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>Flexbox</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/responsive-logo.png"
+                class="d-block w-20"
+                alt="responsive logo"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>Responsive</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/seo-logo.png"
+                class="d-block w-20"
+                alt="Seo logo"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <p>SEO</p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
         <div class="row">
           <div class="col-md-6 mb-4">
