@@ -230,4 +230,8 @@ footer .open-source {
     font-size: 14px;
     font-family: "Times New Roman", Times, serif;
   }
+  .headshot img {
+    max-width: 40%;
+    height: auto;
+  }
 }
